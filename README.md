@@ -20,3 +20,6 @@ Then open `http://localhost:4173`.
 - Open the inbox and send a sample message
 
 This front-end prototype uses sample data and stores saved places in browser local storage. It does not process payments or create real bookings.
+## Image credit
+
+The City Loft listing photo is by [Thới Nam Cao on Pexels](https://www.pexels.com/photo/interior-of-a-modern-apartment-22743872/).

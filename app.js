@@ -2,7 +2,7 @@ const ASSET = './public/assets/';
 const properties = [
   { id:'cliffside', name:'Cliffside Studio', place:'Goa', price:4800, rating:'4.92', image:'stay-cliffside.png', type:'Beachfront studio' },
   { id:'mountain', name:'Mountain Cabin', place:'Manali', price:3200, rating:'4.9', image:'stay-mountain.png', type:'Cabin in the hills' },
-  { id:'city', name:'City Loft', place:'Chennai', price:4200, rating:'4.9', image:null, type:'Loft in the city' },
+  { id:'city', name:'City Loft', place:'Chennai', price:4200, rating:'4.9', image:'stay-cityloft.jpg', type:'Loft in the city' },
   { id:'beach', name:'Beach Villa', place:'Alleppey', price:5400, rating:'4.9', image:'stay-beach.png', type:'Private villa' }
 ];
 const guestNav = [
