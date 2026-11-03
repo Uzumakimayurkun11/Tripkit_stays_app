@@ -16,10 +16,15 @@
 ---
 
 ## 📱 UI Showcase & Screen Flows
+### 📋 Complete Screen Flow Breakdown
 
-| Welcome & Onboarding | Explore & Discovery | Stay Details & Booking | Host Dashboard |
-| :---: | :---: | :---: | :---: |
-| ![Welcome](public/assets/01%20·%20Welcome.png) | ![Explore](public/assets/07%20·%20Explore.png) | ![Checkout](public/assets/11%20·%20Checkout.png) | ![Host Dashboard](public/assets/16%20·%20Host%20dashboard.png) |
+| Flow Category | Screen Count & Range | Associated Assets |
+| :--- | :--- | :--- |
+| **1. Onboarding & Auth** | 4 Screens | `01 · Welcome.png` to `04 · OTP.png` |
+| **2. Home & Discovery** | 5 Screens | `05 · Search.png` to `09 · Filter.png` |
+| **3. Booking & Checkout** | 6 Screens | `10 · Details.png` to `15 · Success.png` |
+| **4. Host Dashboard** | 5 Screens | `16 · Host dashboard.png` to `20 · Analytics.png` |
+| **5. Account & Settings** | 4 Screens | `21 · Profile.png` to `24 · Settings.png` |
 
 ---
 
@@ -32,8 +37,7 @@
 
 ### 2. Dedicated Host Mode
 * **Property & Listing Management:** Toggle easily into a host interface to review active listings, pricing, and availability calendars.
-* **Reservation Tracking:** Clean overview cards for managing incoming guest requests and communication via built-in messaging flows.
-
+* **Earnings & Analytics:** Transparent tracking of revenue payouts, occupancy rates, and upcoming reservation requests.
 ---
 
 ## 🚀 Preview Locally
