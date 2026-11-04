@@ -19,6 +19,7 @@
         <h1>Find a place<br />that feels like <em>yours.</em></h1>
         <p class="story-copy">A thoughtful way to find a weekend away, plan a trip with friends, or welcome someone into your space.</p>
         <div class="story-tags"><span>Guest + host flows</span><span>24 screens</span><span>Made for exploring</span></div>
+        <a class="story-gallery-link" href="#screens">Browse all 24 screens <span aria-hidden="true">↘</span></a>
         <div class="story-foot"><span class="tiny-dot"></span> Interactive prototype <span class="story-line"></span> <a href="https://www.figma.com/design/068XarewcMxPw1bP8Hrmhv/TripKit?node-id=0-1" target="_blank" rel="noreferrer">View the Figma file ↗</a></div>
       </section>
       <section class="device-area" aria-label="TripKit interactive preview">
@@ -28,6 +29,30 @@
       </section>
       <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
     </main>
+    <section class="screen-explorer" id="screens" aria-labelledby="screens-title">
+      <header class="screen-explorer-heading">
+        <div><p class="eyebrow">THE COMPLETE TRIPKIT JOURNEY</p><h2 id="screens-title">Every screen, <em>one trip.</em></h2></div>
+        <p>Explore all 24 guest and host screens. Choose a screen to preview it, or browse the complete gallery below.</p>
+      </header>
+      <div class="screen-browser">
+        <aside class="screen-sidebar" aria-label="TripKit screens">
+          <div class="screen-sidebar-head"><div><span class="screen-kicker">SCREEN LIBRARY</span><h3>Explore TripKit</h3></div><span class="screen-count" id="tripkitScreenCount">24 / 24</span></div>
+          <label class="screen-search"><span aria-hidden="true">⌕</span><input id="tripkitScreenSearch" type="search" placeholder="Find a screen" aria-label="Find a TripKit screen" autocomplete="off"></label>
+          <div class="screen-list" id="tripkitScreenList"></div>
+        </aside>
+        <section class="screen-stage" aria-label="Selected screen preview">
+          <div class="screen-stage-bar"><span><i class="screen-live-dot"></i><span id="tripkitScreenGroup">GUEST DISCOVERY</span></span><div class="screen-stage-controls"><button id="tripkitPrev" type="button" aria-label="Previous screen">←</button><button id="tripkitNext" type="button" aria-label="Next screen">→</button><button id="tripkitExpand" type="button" aria-label="Open full-size preview">⤢</button></div></div>
+          <div class="screen-device-wrap"><div class="screen-device-glow"></div><div class="screen-device"><img id="tripkitScreenImage" src="./public/assets/07%20%C2%B7%20Explore.png" alt="TripKit Explore screen"></div><span class="screen-device-label">TRIPKIT MOBILE · <span id="tripkitScreenNumber">07</span></span></div>
+          <div class="screen-description"><div><span id="tripkitScreenFlow">GUEST DISCOVERY</span><h3 id="tripkitScreenTitle">Explore</h3><p id="tripkitScreenSummary">Find a stay that fits the trip you have in mind.</p></div><span class="screen-chip">Mobile app</span></div>
+        </section>
+        <aside class="screen-about"><span class="screen-about-icon">✦</span><span class="screen-kicker">MADE FOR GETAWAYS</span><h3>Find your place. <em>Make it a trip.</em></h3><p>TripKit brings stay discovery, planning, bookings, and host tools together in a warm, easy-to-follow experience.</p><div class="screen-about-points"><div><b>01</b><span>Explore stays and save the ones you love.</span></div><div><b>02</b><span>Book with clear dates, guests, and pricing.</span></div><div><b>03</b><span>Manage trips and host listings in one place.</span></div></div><a class="screen-source" href="https://github.com/Uzumakimayurkun11/Tripkit_stays_app" target="_blank" rel="noreferrer"><span>GH</span><strong>View project source</strong><i>↗</i></a></aside>
+      </div>
+      <div class="screen-gallery-heading"><div><span class="screen-kicker">BROWSE THE FLOW</span><h3>All 24 screens</h3></div><span>Tap any screen to preview it above</span></div>
+      <div class="tripkit-gallery-grid" id="tripkitGalleryGrid"></div>
+      <a class="mobile-screen-jump" href="#screens">Browse TripKit’s 24 screens <span aria-hidden="true">↓</span></a>
+    </section>
+    <dialog class="tripkit-screen-dialog" id="tripkitScreenDialog" aria-label="Full-size TripKit screen"><button id="tripkitCloseDialog" type="button" aria-label="Close preview">×</button><img id="tripkitDialogImage" alt=""></dialog>
     <script src="./app.js" defer></script>
+    <script src="./screen-gallery.js?v=1" defer></script>
   </body>
 </html>
